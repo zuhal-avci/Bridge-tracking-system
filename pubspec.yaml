@@ -1,0 +1,27 @@
+name: trafik_sayim
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  dropdown_search: ^5.0.6      # arama‑seçim kutusu
+  geolocator: ^10.1.0          # GPS konum
+  image_picker: ^1.1.0         # Galeri / kamera fotoğraf seçimi
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/Bursa_Büyükşehir_Belediyesi_Logosu.png
